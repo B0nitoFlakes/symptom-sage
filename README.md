@@ -12,10 +12,10 @@ A medical symptom checker powered by Retrieval-Augmented Generation (RAG). Users
 ## Project Structure
 ```
 symptom-sage/
-|---data/
-|---scrapers/
-|---README.md
-|---requirements.txt
+├── data/
+├── scrapers/
+├── requirements.txt
+└── README.md
 ```
 
 ## Data Sources
