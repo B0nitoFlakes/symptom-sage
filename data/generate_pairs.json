@@ -1,0 +1,722 @@
+[
+  {
+    "symptom": "headache",
+    "possible_condition": "migraine",
+    "description": "A migraine is characterized by severe, throbbing pain, often on one side of the head, and can be accompanied by nausea and sensitivity to light or sound.",
+    "advice": "Take painkillers like paracetamol or ibuprofen and rest in a dark, quiet room.",
+    "when_to_see_doctor": "If you have a bad throbbing pain at the front or side of your head, feel sick, or find light or noise painful.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/headaches/"
+  },
+  {
+    "symptom": "headache",
+    "possible_condition": "cluster headache",
+    "description": "Cluster headaches are extremely painful and occur in cyclical patterns or clusters, often causing intense pain around one eye.",
+    "advice": "Seek immediate medical attention if you experience severe pain around the eye.",
+    "when_to_see_doctor": "If you have severe headaches that occur in clusters and are accompanied by other symptoms like nasal congestion.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/headaches/"
+  },
+  {
+    "symptom": "headache",
+    "possible_condition": "tension headache",
+    "description": "Tension headaches are the most common type, often caused by stress, poor posture, or eye strain, resulting in a dull, aching sensation.",
+    "advice": "Try to relax, drink plenty of water, and take over-the-counter painkillers if necessary.",
+    "when_to_see_doctor": "If your headache keeps coming back or painkillers do not help.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/headaches/"
+  },
+  {
+    "symptom": "headache",
+    "possible_condition": "hormonal headache",
+    "description": "Hormonal headaches can occur due to fluctuations in hormones, often linked to menstrual cycles or menopause.",
+    "advice": "Keep a headache diary to track patterns and consult a doctor for management options.",
+    "when_to_see_doctor": "If you regularly get headaches before or during your period.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/headaches/"
+  },
+  {
+    "symptom": "headache",
+    "possible_condition": "meningitis",
+    "description": "Meningitis can cause severe headaches along with other symptoms like fever and a stiff neck, indicating inflammation of the protective membranes covering the brain.",
+    "advice": "Seek urgent medical attention if you experience a severe headache with high fever and symptoms of meningitis.",
+    "when_to_see_doctor": "If you have a headache that comes on suddenly and is extremely painful, accompanied by confusion or loss of vision.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/headaches/"
+  },
+  {
+    "symptom": "cough",
+    "possible_condition": "common cold",
+    "description": "A cough often accompanies a common cold, which is caused by viral infections and usually resolves within a few weeks.",
+    "advice": "Rest, drink plenty of fluids, and consider using over-the-counter pain relievers like paracetamol or ibuprofen.",
+    "when_to_see_doctor": "See a GP if you've had a cough for more than 3 weeks or if you're losing weight for no reason.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/cough/"
+  },
+  {
+    "symptom": "cough",
+    "possible_condition": "bronchitis",
+    "description": "Bronchitis can cause a persistent cough due to inflammation of the bronchial tubes, often following a cold or flu.",
+    "advice": "Stay hydrated and rest; consider consulting a pharmacist for cough syrups or decongestants.",
+    "when_to_see_doctor": "Seek urgent medical attention if your cough worsens, you have chest pain, or you're coughing up blood.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/cough/"
+  },
+  {
+    "symptom": "cough",
+    "possible_condition": "COVID-19",
+    "description": "A cough can be a symptom of COVID-19, which may present with other symptoms such as fever and loss of taste or smell.",
+    "advice": "Isolate yourself and get tested for COVID-19; monitor your symptoms closely.",
+    "when_to_see_doctor": "Contact a doctor if you experience severe symptoms like difficulty breathing or persistent chest pain.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/cough/"
+  },
+  {
+    "symptom": "cough",
+    "possible_condition": "allergies",
+    "description": "Coughing can result from allergies, such as hay fever, which irritate the throat and airways.",
+    "advice": "Avoid allergens and consider using antihistamines to alleviate symptoms.",
+    "when_to_see_doctor": "Consult a GP if you have persistent symptoms or if your cough is accompanied by other severe allergic reactions.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/cough/"
+  },
+  {
+    "symptom": "cough",
+    "possible_condition": "acid reflux",
+    "description": "Coughing can be a symptom of acid reflux, where stomach acid irritates the throat and causes discomfort.",
+    "advice": "Avoid large meals and lying down after eating; consider over-the-counter antacids.",
+    "when_to_see_doctor": "See a doctor if you have frequent coughs along with heartburn or if your symptoms worsen.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/cough/"
+  },
+  {
+    "symptom": "fever",
+    "possible_condition": "cold",
+    "description": "A cold is a common viral infection that can cause a high temperature as the body fights off the virus.",
+    "advice": "Get plenty of rest and drink fluids to stay hydrated.",
+    "when_to_see_doctor": "If your fever persists or worsens despite home treatment.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/symptoms/fever-in-adults/"
+  },
+  {
+    "symptom": "fever",
+    "possible_condition": "flu",
+    "description": "The flu is a viral infection that can lead to a high temperature along with other symptoms like chills and body aches.",
+    "advice": "Take paracetamol or ibuprofen if you feel uncomfortable and stay hydrated.",
+    "when_to_see_doctor": "If your symptoms do not improve or if you experience severe symptoms.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/symptoms/fever-in-adults/"
+  },
+  {
+    "symptom": "fever",
+    "possible_condition": "infection",
+    "description": "A high temperature can indicate an infection as the body responds to pathogens.",
+    "advice": "Rest and drink plenty of fluids; consider over-the-counter medications for discomfort.",
+    "when_to_see_doctor": "If the fever is very high or does not decrease with treatment.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/symptoms/fever-in-adults/"
+  },
+  {
+    "symptom": "fever",
+    "possible_condition": "dehydration",
+    "description": "Fever can lead to dehydration, especially if accompanied by sweating or not drinking enough fluids.",
+    "advice": "Ensure you drink enough fluids to keep your urine light yellow and clear.",
+    "when_to_see_doctor": "If you feel dizzy, confused, or have very dark urine.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/symptoms/fever-in-adults/"
+  },
+  {
+    "symptom": "fever",
+    "possible_condition": "serious illness",
+    "description": "In some cases, a high temperature may signal a more serious underlying condition.",
+    "advice": "Monitor your symptoms closely and seek medical advice if they worsen.",
+    "when_to_see_doctor": "If you have a high temperature that is not improving or if you have other concerning symptoms.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/symptoms/fever-in-adults/"
+  },
+  {
+    "symptom": "fatigue",
+    "possible_condition": "Sleep apnoea",
+    "description": "Sleep apnoea can cause tiredness during the day due to interrupted sleep at night, often characterized by gasping or snoring.",
+    "advice": "Seek medical evaluation if you experience loud snoring or gasping during sleep.",
+    "when_to_see_doctor": "If you notice loud snoring or choking noises during sleep, or if your fatigue is affecting your daily life.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/symptoms/tiredness-and-fatigue/"
+  },
+  {
+    "symptom": "fatigue",
+    "possible_condition": "Iron deficiency anaemia",
+    "description": "Iron deficiency anaemia can lead to fatigue, palpitations, and pale skin due to insufficient red blood cells.",
+    "advice": "Consider dietary changes to include iron-rich foods and consult a doctor for testing.",
+    "when_to_see_doctor": "If you experience fatigue along with shortness of breath or noticeable heartbeats.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/symptoms/tiredness-and-fatigue/"
+  },
+  {
+    "symptom": "fatigue",
+    "possible_condition": "Diabetes",
+    "description": "Diabetes may cause extreme fatigue along with increased thirst and frequent urination due to high blood sugar levels.",
+    "advice": "Monitor your symptoms and maintain a healthy diet; consult a healthcare provider for blood sugar testing.",
+    "when_to_see_doctor": "If you feel excessively tired and experience increased thirst or weight loss.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/symptoms/tiredness-and-fatigue/"
+  },
+  {
+    "symptom": "fatigue",
+    "possible_condition": "Overactive thyroid (hyperthyroidism)",
+    "description": "Hyperthyroidism can lead to constant fatigue, anxiety, and muscle weakness due to an overactive metabolism.",
+    "advice": "Seek medical advice for thyroid function tests if you experience persistent fatigue and anxiety.",
+    "when_to_see_doctor": "If you feel fatigued and have symptoms like nervousness or irritability.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/symptoms/tiredness-and-fatigue/"
+  },
+  {
+    "symptom": "fatigue",
+    "possible_condition": "Myalgic encephalomyelitis or chronic fatigue syndrome (ME/CFS)",
+    "description": "ME/CFS is characterized by extreme fatigue lasting more than six months, affecting daily activities and cognitive function.",
+    "advice": "Consult a healthcare professional for a proper diagnosis and management plan.",
+    "when_to_see_doctor": "If you experience extreme fatigue for more than three months along with cognitive difficulties.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/symptoms/tiredness-and-fatigue/"
+  },
+  {
+    "symptom": "nausea",
+    "possible_condition": "Norovirus or food poisoning",
+    "description": "Norovirus or food poisoning can cause nausea along with symptoms like diarrhea or vomiting.",
+    "advice": "Stay hydrated and rest; consider seeing a GP if symptoms persist.",
+    "when_to_see_doctor": "If you are feeling sick and do not feel better in a few days or if you experience severe symptoms.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/symptoms/feeling-sick-nausea/"
+  },
+  {
+    "symptom": "nausea",
+    "possible_condition": "Acid reflux",
+    "description": "Acid reflux can lead to nausea, often accompanied by heartburn or bloating after eating.",
+    "advice": "Avoid trigger foods and consider smaller, more frequent meals.",
+    "when_to_see_doctor": "If nausea occurs frequently or is accompanied by severe discomfort.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/symptoms/feeling-sick-nausea/"
+  },
+  {
+    "symptom": "nausea",
+    "possible_condition": "Migraine",
+    "description": "Migraines can cause nausea, along with headaches and sensitivity to light or sound.",
+    "advice": "Rest in a dark, quiet room and stay hydrated.",
+    "when_to_see_doctor": "If you experience frequent migraines or if nausea is severe.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/symptoms/feeling-sick-nausea/"
+  },
+  {
+    "symptom": "nausea",
+    "possible_condition": "Labyrinthitis or vertigo",
+    "description": "Labyrinthitis or vertigo can cause dizziness and nausea, often related to balance issues.",
+    "advice": "Avoid sudden movements and stay hydrated.",
+    "when_to_see_doctor": "If dizziness is severe or persistent, or if accompanied by other concerning symptoms.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/symptoms/feeling-sick-nausea/"
+  },
+  {
+    "symptom": "nausea",
+    "possible_condition": "Morning sickness (pregnancy)",
+    "description": "Morning sickness is common in pregnancy and can cause nausea, especially in the first trimester.",
+    "advice": "Eat small, frequent meals and stay hydrated; ginger may help.",
+    "when_to_see_doctor": "If nausea is severe or persistent, affecting daily activities.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/symptoms/feeling-sick-nausea/"
+  },
+  {
+    "symptom": "stomach pain",
+    "possible_condition": "Trapped wind (flatulence)",
+    "description": "Trapped wind can cause discomfort and pain in the stomach, often accompanied by bloating and excessive gas.",
+    "advice": "Try to move around to help release the trapped gas and consider over-the-counter remedies.",
+    "when_to_see_doctor": "If the pain persists or is severe, or if you experience significant bloating that does not go away.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/stomach-ache/"
+  },
+  {
+    "symptom": "stomach pain",
+    "possible_condition": "Indigestion",
+    "description": "Indigestion can lead to a feeling of fullness, bloating, and discomfort in the stomach after eating.",
+    "advice": "Eat smaller meals and avoid spicy or fatty foods; consider antacids if necessary.",
+    "when_to_see_doctor": "If symptoms persist for more than a few days or worsen over time.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/stomach-ache/"
+  },
+  {
+    "symptom": "stomach pain",
+    "possible_condition": "Constipation",
+    "description": "Constipation can cause abdominal pain and discomfort due to difficulty in passing stools.",
+    "advice": "Increase fiber intake and drink plenty of water; consider a mild laxative if needed.",
+    "when_to_see_doctor": "If you have not had a bowel movement for several days or experience severe pain.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/stomach-ache/"
+  },
+  {
+    "symptom": "stomach pain",
+    "possible_condition": "Stomach bug or food poisoning",
+    "description": "A stomach bug or food poisoning can cause pain, watery stools, nausea, and vomiting.",
+    "advice": "Stay hydrated and rest; seek medical advice if symptoms are severe or persist.",
+    "when_to_see_doctor": "If you have persistent vomiting, high fever, or signs of dehydration.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/stomach-ache/"
+  },
+  {
+    "symptom": "stomach pain",
+    "possible_condition": "Appendicitis",
+    "description": "Appendicitis is characterized by sudden pain in the lower right abdomen and requires immediate medical attention.",
+    "advice": "Do not eat or drink anything and seek emergency medical help immediately.",
+    "when_to_see_doctor": "If you experience sudden, severe abdominal pain, especially in the lower right side.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/stomach-ache/"
+  },
+  {
+    "symptom": "sore throat",
+    "possible_condition": "viral infection",
+    "description": "A viral infection is a common cause of sore throats, often accompanied by other symptoms like a runny nose or cough.",
+    "advice": "Drink plenty of water and rest; consider gargling with warm salt water.",
+    "when_to_see_doctor": "If the sore throat does not improve after a week or if you experience a high fever.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/sore-throat/"
+  },
+  {
+    "symptom": "sore throat",
+    "possible_condition": "bacterial infection",
+    "description": "A bacterial infection, such as strep throat, can cause a severe sore throat and may require antibiotics.",
+    "advice": "Consult a pharmacist or GP if you suspect a bacterial infection.",
+    "when_to_see_doctor": "If you have a sore throat with a lump in your neck or mouth ulcers lasting more than 3 weeks.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/sore-throat/"
+  },
+  {
+    "symptom": "sore throat",
+    "possible_condition": "allergies",
+    "description": "Allergies can cause throat irritation and soreness, often accompanied by sneezing or itchy eyes.",
+    "advice": "Avoid allergens and consider taking antihistamines if necessary.",
+    "when_to_see_doctor": "If symptoms persist or worsen despite avoiding allergens.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/sore-throat/"
+  },
+  {
+    "symptom": "sore throat",
+    "possible_condition": "gastroesophageal reflux disease (GERD)",
+    "description": "GERD can cause acid to irritate the throat, leading to soreness and discomfort.",
+    "advice": "Avoid spicy foods and eat smaller meals; consider over-the-counter antacids.",
+    "when_to_see_doctor": "If you experience frequent heartburn or if the sore throat persists.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/sore-throat/"
+  },
+  {
+    "symptom": "sore throat",
+    "possible_condition": "smoking-related irritation",
+    "description": "Smoking or exposure to smoke can irritate the throat, causing soreness.",
+    "advice": "Avoid smoking and smoky environments; stay hydrated.",
+    "when_to_see_doctor": "If you have persistent soreness or other respiratory symptoms.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/sore-throat/"
+  },
+  {
+    "symptom": "dizziness",
+    "possible_condition": "vertigo",
+    "description": "Vertigo is a sensation of spinning or feeling off-balance, often associated with inner-ear problems.",
+    "advice": "Lie down until the dizziness passes, then get up slowly.",
+    "when_to_see_doctor": "If the dizziness keeps coming back or is accompanied by hearing changes.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/dizziness/"
+  },
+  {
+    "symptom": "dizziness",
+    "possible_condition": "dehydration",
+    "description": "Dehydration can cause dizziness due to a lack of fluids in the body, leading to low blood pressure.",
+    "advice": "Drink plenty of fluids, especially water.",
+    "when_to_see_doctor": "If dizziness persists despite hydration or if you experience fainting.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/dizziness/"
+  },
+  {
+    "symptom": "dizziness",
+    "possible_condition": "labyrinthitis",
+    "description": "Labyrinthitis is an inner-ear infection that can cause dizziness and balance issues, often following a cold or flu.",
+    "advice": "Rest and avoid sudden movements until symptoms improve.",
+    "when_to_see_doctor": "If dizziness is severe or accompanied by hearing loss.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/dizziness/"
+  },
+  {
+    "symptom": "dizziness",
+    "possible_condition": "postural hypotension",
+    "description": "Postural hypotension occurs when standing up suddenly, causing a drop in blood pressure and resulting in dizziness.",
+    "advice": "Move slowly and carefully, especially when changing positions.",
+    "when_to_see_doctor": "If dizziness occurs frequently or is associated with fainting.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/dizziness/"
+  },
+  {
+    "symptom": "dizziness",
+    "possible_condition": "side effect of medication",
+    "description": "Certain medications can cause dizziness as a side effect, impacting balance and coordination.",
+    "advice": "Consult with your GP about any new medications that may be causing dizziness.",
+    "when_to_see_doctor": "If dizziness starts after beginning a new medication or if it worsens.",
+    "source": "NHS",
+    "url": "https://www.nhs.uk/conditions/dizziness/"
+  },
+  {
+    "symptom": "headache",
+    "possible_condition": "Tension Headaches",
+    "description": "Tension headaches are the most common type of headache among adults and teens, causing mild to moderate pain that can come and go over time.",
+    "advice": "Try relaxation techniques, over-the-counter pain relievers, and ensure you are well-hydrated.",
+    "when_to_see_doctor": "If headaches become more frequent or severe, or if they interfere with daily activities.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/migraines-headaches/migraines-headaches-basics"
+  },
+  {
+    "symptom": "headache",
+    "possible_condition": "Migraine Headaches",
+    "description": "Migraine headaches are characterized by pounding, throbbing pain that can last from 4 hours to 3 days, often accompanied by nausea and sensitivity to light.",
+    "advice": "Consider keeping a headache diary, avoiding known triggers, and consult a doctor for potential preventive treatments.",
+    "when_to_see_doctor": "If migraines occur more than once a month or if the pain is unusually severe.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/migraines-headaches/migraines-headaches-basics"
+  },
+  {
+    "symptom": "headache",
+    "possible_condition": "Cluster Headaches",
+    "description": "Cluster headaches are extremely painful and occur in cyclical patterns, often causing intense burning or piercing pain around one eye.",
+    "advice": "Seek immediate medical attention for severe pain and consider treatments such as oxygen therapy or prescription medications.",
+    "when_to_see_doctor": "If you experience severe headaches that disrupt your daily life or if they occur in clusters.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/migraines-headaches/migraines-headaches-basics"
+  },
+  {
+    "symptom": "headache",
+    "possible_condition": "Sinus Headaches",
+    "description": "Sinus headaches are associated with sinus infections and cause pain in the forehead, cheeks, and around the eyes, often accompanied by nasal congestion.",
+    "advice": "Use decongestants, warm compresses, and stay hydrated to alleviate symptoms.",
+    "when_to_see_doctor": "If headaches persist despite treatment or are accompanied by high fever or vision changes.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/migraines-headaches/migraines-headaches-basics"
+  },
+  {
+    "symptom": "headache",
+    "possible_condition": "Rebound Headaches",
+    "description": "Rebound headaches occur from the overuse of pain medications, leading to a cycle of headaches that can worsen with continued use.",
+    "advice": "Limit the use of over-the-counter pain medications and consult a doctor for a proper treatment plan.",
+    "when_to_see_doctor": "If headaches worsen or if you find yourself taking pain medications more than twice a week.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/migraines-headaches/migraines-headaches-basics"
+  },
+  {
+    "symptom": "fever",
+    "possible_condition": "COVID-19",
+    "description": "COVID-19 is a viral infection that can cause a fever as one of its primary symptoms, indicating the body's response to the virus.",
+    "advice": "Monitor your symptoms and stay hydrated. Rest and take over-the-counter medications if necessary.",
+    "when_to_see_doctor": "If you experience difficulty breathing, persistent chest pain, confusion, or bluish lips or face.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/covid/what-is-a-fever"
+  },
+  {
+    "symptom": "fever",
+    "possible_condition": "Influenza",
+    "description": "Influenza, or the flu, is a contagious respiratory illness that often presents with a fever as the body fights off the virus.",
+    "advice": "Rest, stay hydrated, and consider antiviral medications if prescribed by a doctor.",
+    "when_to_see_doctor": "If you have a high fever that lasts more than three days or if you experience severe symptoms.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/covid/what-is-a-fever"
+  },
+  {
+    "symptom": "fever",
+    "possible_condition": "Bacterial Infection",
+    "description": "Bacterial infections can lead to fever as the immune system responds to the invading bacteria.",
+    "advice": "Seek medical attention for proper diagnosis and treatment, which may include antibiotics.",
+    "when_to_see_doctor": "If you have a fever that is very high or persistent, or if you develop other severe symptoms.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/covid/what-is-a-fever"
+  },
+  {
+    "symptom": "fever",
+    "possible_condition": "Heat Exhaustion",
+    "description": "Heat exhaustion can occur when the body overheats, leading to a fever-like temperature as a response.",
+    "advice": "Move to a cooler place, hydrate, and rest. Seek medical help if symptoms worsen.",
+    "when_to_see_doctor": "If you experience confusion, fainting, or a high body temperature that does not decrease.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/covid/what-is-a-fever"
+  },
+  {
+    "symptom": "fever",
+    "possible_condition": "Autoimmune Disorders",
+    "description": "Certain autoimmune disorders can cause fever as the immune system mistakenly attacks healthy cells, leading to inflammation.",
+    "advice": "Consult a healthcare provider for a thorough evaluation and management plan.",
+    "when_to_see_doctor": "If you have a persistent fever accompanied by unexplained symptoms or worsening health.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/covid/what-is-a-fever"
+  },
+  {
+    "symptom": "cough",
+    "possible_condition": "Common Cold",
+    "description": "A common viral infection that affects the upper respiratory tract, often leading to a cough as a symptom.",
+    "advice": "Stay hydrated and rest; over-the-counter medications may help alleviate symptoms.",
+    "when_to_see_doctor": "If symptoms worsen or persist beyond 10 days, or if you experience a high fever.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/cold-and-flu/overview"
+  },
+  {
+    "symptom": "cough",
+    "possible_condition": "Flu (Influenza)",
+    "description": "A contagious respiratory illness caused by influenza viruses, often accompanied by a cough, fever, and body aches.",
+    "advice": "Rest, drink fluids, and consider antiviral medications if diagnosed early.",
+    "when_to_see_doctor": "If you have difficulty breathing, chest pain, or a high fever that doesn't respond to medication.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/cold-and-flu/overview"
+  },
+  {
+    "symptom": "cough",
+    "possible_condition": "Chronic Bronchitis",
+    "description": "A long-term inflammation of the bronchial tubes, leading to a persistent cough that produces mucus.",
+    "advice": "Avoid irritants like smoke and consider bronchodilator medications.",
+    "when_to_see_doctor": "If you experience a cough that lasts more than eight weeks or has blood in it.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/cold-and-flu/overview"
+  },
+  {
+    "symptom": "cough",
+    "possible_condition": "Asthma",
+    "description": "A chronic condition that causes inflammation and narrowing of the airways, often resulting in a cough, wheezing, and shortness of breath.",
+    "advice": "Use prescribed inhalers and avoid known triggers.",
+    "when_to_see_doctor": "If you have frequent coughing episodes or if your symptoms worsen.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/cold-and-flu/overview"
+  },
+  {
+    "symptom": "cough",
+    "possible_condition": "Allergic Rhinitis",
+    "description": "An allergic reaction that can cause nasal congestion and postnasal drip, leading to a cough.",
+    "advice": "Avoid allergens and consider antihistamines for relief.",
+    "when_to_see_doctor": "If symptoms are severe or do not improve with over-the-counter treatments.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/cold-and-flu/overview"
+  },
+  {
+    "symptom": "fatigue",
+    "possible_condition": "Anemia",
+    "description": "Anemia is a condition where you lack enough healthy red blood cells to carry adequate oxygen to your body's tissues, leading to fatigue.",
+    "advice": "Consider increasing iron-rich foods in your diet and consult a healthcare provider for testing.",
+    "when_to_see_doctor": "If fatigue persists despite adequate sleep or if you experience shortness of breath or unusual paleness.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/women/features/chronic-fatigue-tired-feeling-tired"
+  },
+  {
+    "symptom": "fatigue",
+    "possible_condition": "Depression",
+    "description": "Depression can manifest as persistent fatigue, where individuals feel exhausted even without physical exertion.",
+    "advice": "Seek support from a mental health professional and consider therapy or medication.",
+    "when_to_see_doctor": "If feelings of sadness or hopelessness accompany fatigue, or if you have thoughts of self-harm.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/women/features/chronic-fatigue-tired-feeling-tired"
+  },
+  {
+    "symptom": "fatigue",
+    "possible_condition": "Sleep Apnea",
+    "description": "Sleep apnea is a disorder characterized by interrupted breathing during sleep, leading to excessive daytime fatigue.",
+    "advice": "Consult a sleep specialist for evaluation and possible sleep study.",
+    "when_to_see_doctor": "If you snore loudly, experience gasping during sleep, or feel excessively sleepy during the day.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/women/features/chronic-fatigue-tired-feeling-tired"
+  },
+  {
+    "symptom": "fatigue",
+    "possible_condition": "Underactive Thyroid (Hypothyroidism)",
+    "description": "Hypothyroidism occurs when the thyroid gland doesn't produce enough hormones, leading to fatigue and low energy levels.",
+    "advice": "Get a thyroid function test and discuss treatment options with your doctor.",
+    "when_to_see_doctor": "If you notice weight gain, sensitivity to cold, or changes in skin and hair along with fatigue.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/women/features/chronic-fatigue-tired-feeling-tired"
+  },
+  {
+    "symptom": "fatigue",
+    "possible_condition": "Fibromyalgia",
+    "description": "Fibromyalgia is a chronic condition characterized by widespread pain and fatigue, often without a clear cause.",
+    "advice": "Consider lifestyle changes, such as regular exercise and stress management techniques, and consult a healthcare provider.",
+    "when_to_see_doctor": "If fatigue is accompanied by widespread pain or cognitive difficulties.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/women/features/chronic-fatigue-tired-feeling-tired"
+  },
+  {
+    "symptom": "nausea",
+    "possible_condition": "gallbladder disease",
+    "description": "Gallbladder disease can cause nausea due to inflammation or blockage affecting digestion.",
+    "advice": "Monitor your symptoms and consider dietary changes to reduce fat intake.",
+    "when_to_see_doctor": "Seek medical attention if nausea is accompanied by severe abdominal pain or jaundice.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/digestive-disorders/digestive-diseases-nausea-vomiting"
+  },
+  {
+    "symptom": "nausea",
+    "possible_condition": "food poisoning",
+    "description": "Food poisoning often presents with nausea as the body reacts to harmful bacteria or toxins.",
+    "advice": "Stay hydrated and rest; avoid solid foods until nausea subsides.",
+    "when_to_see_doctor": "Contact a doctor if symptoms persist for more than 24 hours or if you experience high fever.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/digestive-disorders/digestive-diseases-nausea-vomiting"
+  },
+  {
+    "symptom": "nausea",
+    "possible_condition": "motion sickness",
+    "description": "Motion sickness occurs when there is a conflict between the senses, leading to nausea during travel.",
+    "advice": "Try to focus on a stable point in the distance and consider over-the-counter medications.",
+    "when_to_see_doctor": "Consult a doctor if motion sickness is frequent and disrupts daily activities.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/digestive-disorders/digestive-diseases-nausea-vomiting"
+  },
+  {
+    "symptom": "nausea",
+    "possible_condition": "pregnancy",
+    "description": "Nausea is common in early pregnancy, often referred to as morning sickness.",
+    "advice": "Eat small, frequent meals and stay hydrated; ginger may help alleviate symptoms.",
+    "when_to_see_doctor": "Contact your healthcare provider if nausea is severe or prevents you from eating or drinking.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/digestive-disorders/digestive-diseases-nausea-vomiting"
+  },
+  {
+    "symptom": "nausea",
+    "possible_condition": "gastroesophageal reflux disease (GERD)",
+    "description": "GERD can cause nausea due to stomach acid backing up into the esophagus.",
+    "advice": "Avoid trigger foods and eat smaller meals; consider elevating your head while sleeping.",
+    "when_to_see_doctor": "Seek medical advice if nausea is persistent or accompanied by chest pain.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/digestive-disorders/digestive-diseases-nausea-vomiting"
+  },
+  {
+    "symptom": "stomach pain",
+    "possible_condition": "appendicitis",
+    "description": "Appendicitis is an inflammation of the appendix, often causing sudden and severe abdominal pain, particularly in the lower right abdomen.",
+    "advice": "Seek immediate medical attention if you suspect appendicitis.",
+    "when_to_see_doctor": "If you experience sudden, severe abdominal pain, especially if it's localized in the lower right abdomen.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/pain-management/abdominal-pain-causes-treatments"
+  },
+  {
+    "symptom": "stomach pain",
+    "possible_condition": "Crohn's disease",
+    "description": "Crohn's disease is a type of inflammatory bowel disease that can cause chronic abdominal pain, often accompanied by diarrhea and weight loss.",
+    "advice": "Consult a healthcare provider for a proper diagnosis and treatment plan.",
+    "when_to_see_doctor": "If you have persistent abdominal pain lasting more than three months, or if it is accompanied by other symptoms like diarrhea.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/pain-management/abdominal-pain-causes-treatments"
+  },
+  {
+    "symptom": "stomach pain",
+    "possible_condition": "kidney stones",
+    "description": "Kidney stones can cause severe colicky abdominal pain that comes in waves, often radiating to the back or groin.",
+    "advice": "Drink plenty of fluids and consult a doctor if you suspect kidney stones.",
+    "when_to_see_doctor": "If you experience severe pain that comes and goes, especially if accompanied by blood in urine.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/pain-management/abdominal-pain-causes-treatments"
+  },
+  {
+    "symptom": "stomach pain",
+    "possible_condition": "indigestion",
+    "description": "Indigestion, or dyspepsia, can cause discomfort or pain in the stomach area, often related to eating.",
+    "advice": "Try over-the-counter antacids and avoid trigger foods.",
+    "when_to_see_doctor": "If the pain persists or worsens, or if you experience severe symptoms like vomiting or weight loss.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/pain-management/abdominal-pain-causes-treatments"
+  },
+  {
+    "symptom": "stomach pain",
+    "possible_condition": "gastroenteritis",
+    "description": "Gastroenteritis, often caused by a virus, leads to inflammation of the stomach and intestines, resulting in abdominal pain, diarrhea, and vomiting.",
+    "advice": "Stay hydrated and rest; consult a doctor if symptoms are severe or persist.",
+    "when_to_see_doctor": "If you have severe abdominal pain, high fever, or signs of dehydration.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/pain-management/abdominal-pain-causes-treatments"
+  },
+  {
+    "symptom": "sore throat",
+    "possible_condition": "acute pharyngitis",
+    "description": "Acute pharyngitis is a sudden inflammation of the pharynx, often caused by viral infections like the cold or flu, leading to a sore throat.",
+    "advice": "Stay hydrated, rest, and consider over-the-counter pain relievers.",
+    "when_to_see_doctor": "If symptoms persist for more than a week or worsen, seek medical attention.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/cold-and-flu/understanding-sore-throat-basics"
+  },
+  {
+    "symptom": "sore throat",
+    "possible_condition": "chronic pharyngitis",
+    "description": "Chronic pharyngitis refers to a sore throat that lasts longer than a few weeks, often due to ongoing irritants or infections.",
+    "advice": "Identify and avoid irritants, and consult a healthcare provider for further evaluation.",
+    "when_to_see_doctor": "If the sore throat is persistent and accompanied by other symptoms like weight loss or difficulty breathing.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/cold-and-flu/understanding-sore-throat-basics"
+  },
+  {
+    "symptom": "sore throat",
+    "possible_condition": "tonsillitis",
+    "description": "Tonsillitis is the inflammation of the tonsils, which can cause a severe sore throat, especially when swallowing.",
+    "advice": "Gargle with warm salt water and take pain relievers to ease discomfort.",
+    "when_to_see_doctor": "If you notice white spots on your tonsils or have difficulty breathing.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/cold-and-flu/understanding-sore-throat-basics"
+  },
+  {
+    "symptom": "sore throat",
+    "possible_condition": "laryngitis",
+    "description": "Laryngitis is the inflammation of the larynx, which can lead to a sore throat and hoarseness.",
+    "advice": "Rest your voice and stay hydrated; avoid irritants like smoke.",
+    "when_to_see_doctor": "If hoarseness lasts more than two weeks or is accompanied by a high fever.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/cold-and-flu/understanding-sore-throat-basics"
+  },
+  {
+    "symptom": "sore throat",
+    "possible_condition": "epiglottitis",
+    "description": "Epiglottitis is a serious bacterial infection causing swelling of the epiglottis, which can block airflow.",
+    "advice": "Seek immediate medical attention if you experience difficulty breathing or swallowing.",
+    "when_to_see_doctor": "If you have severe throat pain and difficulty swallowing or breathing.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/cold-and-flu/understanding-sore-throat-basics"
+  },
+  {
+    "symptom": "dizziness",
+    "possible_condition": "Benign Paroxysmal Positional Vertigo (BPPV)",
+    "description": "BPPV is a common inner ear disorder where tiny bits of calcium in the inner ear become dislodged, causing brief episodes of dizziness, especially when tilting or turning the head.",
+    "advice": "If you experience dizziness when moving your head, consider performing specific head exercises to reposition the calcium particles, and consult your doctor for guidance.",
+    "when_to_see_doctor": "If dizziness persists or worsens, or if you experience additional symptoms like severe headache or loss of balance.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/brain/dizziness-vertigo"
+  },
+  {
+    "symptom": "dizziness",
+    "possible_condition": "Cerebellar Stroke",
+    "description": "Cerebellar stroke occurs due to a blockage or rupture of blood vessels in the cerebellum, leading to dizziness, headache, and potential loss of vision or slurred speech.",
+    "advice": "Seek emergency medical help immediately if you experience dizziness along with severe headache, vision changes, or facial drooping.",
+    "when_to_see_doctor": "Any sudden onset of dizziness accompanied by neurological symptoms such as weakness, confusion, or difficulty speaking.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/brain/dizziness-vertigo"
+  },
+  {
+    "symptom": "dizziness",
+    "possible_condition": "Inner Ear Infection",
+    "description": "An inner ear infection can disrupt balance and cause dizziness, often accompanied by symptoms like ear pain or hearing loss.",
+    "advice": "Consult a healthcare provider for appropriate treatment if you suspect an inner ear infection.",
+    "when_to_see_doctor": "If dizziness is persistent and accompanied by ear pain, fever, or hearing changes.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/brain/dizziness-vertigo"
+  },
+  {
+    "symptom": "dizziness",
+    "possible_condition": "Low Blood Pressure",
+    "description": "Low blood pressure can lead to dizziness, especially when standing up quickly, due to inadequate blood flow to the brain.",
+    "advice": "Stay hydrated and rise slowly from sitting or lying positions to minimize dizziness.",
+    "when_to_see_doctor": "If you frequently experience dizziness upon standing or if it is accompanied by fainting or confusion.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/brain/dizziness-vertigo"
+  },
+  {
+    "symptom": "dizziness",
+    "possible_condition": "Dehydration",
+    "description": "Dehydration can lead to dizziness as it affects blood volume and circulation, causing reduced blood flow to the brain.",
+    "advice": "Increase fluid intake, especially in hot weather or after exercise, to prevent dehydration-related dizziness.",
+    "when_to_see_doctor": "If dizziness persists despite rehydration or is accompanied by severe thirst, dry mouth, or dark urine.",
+    "source": "WebMD",
+    "url": "https://www.webmd.com/brain/dizziness-vertigo"
+  }
+]
