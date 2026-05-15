@@ -4,3 +4,8 @@ beautifulsoup4
 openai
 
 python-dotenv
+
+langchain
+langchain-openai
+chromadb
+sentence-transformers

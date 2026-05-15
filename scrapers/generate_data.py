@@ -62,7 +62,7 @@ for entry in data:
     except Exception as e:
         print(f"Error for {entry['symptom']} from {entry['source']}: {e}")
 
-with open("data/generate_pairs.json", "w") as f:
+with open("data/generated_pairs.json", "w") as f:
     json.dump(all_pairs, f, indent=2)
 
 print(f"Total pairs generated: {len(all_pairs)}")
