@@ -1,11 +1,22 @@
+# scraping
 requests
 beautifulsoup4
 
-openai
-
+# environment
 python-dotenv
 
+# openai
+openai
+
+# langchain
 langchain
 langchain-openai
-chromadb
+
+# vector store
+qdrant-client
+
+# embeddings & reranking
 sentence-transformers
+
+#testing
+ragas
