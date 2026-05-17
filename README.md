@@ -78,7 +78,6 @@ Measures safety-critical metrics across 20 test questions using `gpt-4o-mini`.
 - **Answer Relevancy** — measures if answers directly address the user's symptoms
 
 ### Evaluation Limitations
-- RAGAS answer relevancy scores are affected by informal language test questions — RAGAS penalizes semantic mismatch between casual queries and clinical answers
 - DeepEval hallucination failures are primarily due to GPT selecting the most relevant condition from multiple retrieved contexts rather than addressing all contexts — this is expected RAG behavior, not true hallucination
 - ContextPrecision ground truth evaluation excluded as the project does not have access to verified medical expert annotations
 
