@@ -15,6 +15,8 @@ When to See Doctor: {entry['when_to_see_doctor']}
         "metadata": {
             "symptom": entry["symptom"],
             "possible_condition": entry["possible_condition"],
+            "advice": entry["advice"],
+            "when_to_see_doctor": entry["when_to_see_doctor"],
             "source": entry["source"],
             "url": entry["url"]
         }
@@ -32,9 +34,8 @@ def chunk_all(input_path, output_path):
     print(f"Total chunks created: {len(chunks)}")
     return chunks
 
-if__name__ = "__main__"
-
-chunk_all(
-    input_path="data/generated_pairs.json",
-    output_path="data/chunks.json"
-)
+if __name__ == "__main__":
+    chunk_all(
+        input_path="data/generated_pairs.json",
+        output_path="data/chunks.json"
+    )

@@ -20,3 +20,4 @@ sentence-transformers
 
 #testing
 ragas
+deepeval

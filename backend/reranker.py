@@ -1,8 +1,12 @@
+import os
 try:
     from backend.retrieval import retrieve, format_results
 except ImportError:
     from retrieval import retrieve, format_results
 from sentence_transformers import CrossEncoder
+from huggingface_hub import login
+
+login(token=os.getenv("HF_TOKEN"))
 
 model = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
 

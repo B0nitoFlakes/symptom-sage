@@ -3,8 +3,12 @@ import sys
 from dotenv import load_dotenv
 from openai import OpenAI
 from ragas import evaluate
+from langchain_openai import OpenAIEmbeddings
+from ragas.embeddings import embedding_factory
 from ragas.llms import llm_factory
-from ragas.metrics.collections import Faithfulness, AnswerRelevancy, ContextPrecision
+from ragas.metrics import faithfulness, answer_relevancy
+from ragas.metrics.collections.faithfulness import Faithfulness
+from ragas.metrics.collections.answer_relevancy import AnswerRelevancy
 from datasets import Dataset
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -15,30 +19,68 @@ from backend.reranker import rerank
 load_dotenv()
 
 openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
 llm = llm_factory("gpt-4o-mini", client=openai_client)
 
+embeddings = OpenAIEmbeddings(
+    model="text-embedding-3-small",
+    api_key=os.getenv("OPENAI_API_KEY")
+)
+
 test_questions = [
-    "I have a terrible headache and feel nauseous",
-    "I feel very hot and my body temperature is high",
-    "my stomach hurts and I keep vomiting",
-    "everytime I stand up I feel like I'm going to pass out",
-    "my throat is painful and scratchy when I swallow"
+    # Multi-symptom combinations
+    "I am experiencing a severe headache accompanied by nausea",
+    "I have been experiencing abdominal pain and vomiting since last night",
+    "I have a sore throat with fever and generalized body aches",
+    "I am experiencing dizziness, a throbbing headache, and nausea",
+    "I have been feeling fatigued constantly and experiencing throat pain when swallowing",
+    "I have chest tightness accompanied by persistent coughing and shortness of breath",
+    "I am experiencing stomach cramps with diarrhea and general weakness",
+    "I have a headache behind my eyes with nasal congestion and facial pressure",
+
+    # Moderate informal (realistic user language)
+    "my head is really hurting and I feel like throwing up",
+    "my throat is very painful and I am having difficulty swallowing",
+    "I feel dizzy every time I stand up",
+    "I have been coughing continuously for several days",
+    "I feel extremely tired even after a full night of sleep",
+    "my stomach has been hurting and I have vomited twice",
+
+    # Severity based
+    "I have a mild headache that is slightly uncomfortable",
+    "I have a moderate fever and am feeling generally unwell",
+    "I am experiencing severe unbearable abdominal pain",
+
+    # Single symptom baseline
+    "I have a headache",
+    "I am experiencing nausea",
+    "I have a sore throat"
 ]
+
+
 
 def generate_answer(question: str, contexts: list) -> str:
     context_text = "\n\n".join([
-        f"Condition: {r['possible_condition']}\nAdvice: {r.get('advice', 'See a doctor')}"
+        f"Condition: {r['possible_condition']}, Symptom: {r['symptom']}, Advice: {r.get('advice', '')}, When to See Doctor: {r.get('when_to_see_doctor', '')}"
         for r in contexts
     ])
     
-    prompt = f"""Based on the following medical information, answer the question.
-    
-Context:
-{context_text}
+    prompt = f"""
+    You are a helpful medical assistant.
 
-Question: {question}
+    Based on the context below, directly address the user's symptoms and provide helpful guidance.
+    Only use information from the provided context.
+    Do not provide a medical diagnosis.
+    If information is insufficient, recommend consulting a healthcare professional.
 
-Provide a helpful, grounded answer based only on the context above."""
+    Context:
+    {context_text}
+
+    Question: {question}
+
+    Provide a clear, specific answer that directly addresses the symptoms mentioned in the question.
+    Answer:
+    """
 
     response = openai_client.chat.completions.create(
         model="gpt-4o-mini",
@@ -59,7 +101,7 @@ def build_dataset():
         reranked = rerank(question, formatted, top_k=3)
         
         context_texts = [
-            f"Condition: {r['possible_condition']}, Symptom: {r['symptom']}"
+            f"Condition: {r['possible_condition']}, Symptom: {r['symptom']}, Advice: {r.get('advice', '')}, When to See Doctor: {r.get('when_to_see_doctor', '')}"
             for r in reranked
         ]
         
@@ -76,6 +118,15 @@ def build_dataset():
     })
 
 if __name__ == "__main__":
+    # #Testing
+    # question = "bro my head is killing me and i feel like throwing up"
+    # results = retrieve(question, top_k=5)
+    # formatted = format_results(results)
+    # reranked = rerank(question, formatted, top_k=3)
+    # answer = generate_answer(question, reranked)
+    # print(answer)
+
+
     print("Building evaluation dataset...")
     dataset = build_dataset()
     
@@ -83,10 +134,10 @@ if __name__ == "__main__":
     results = evaluate(
         dataset,
         metrics=[
-            Faithfulness(llm=llm),
-            AnswerRelevancy(llm=llm),
-            ContextPrecision(llm=llm)
-        ]
+            faithfulness,
+            answer_relevancy
+        ],
+        embeddings=embeddings
     )
     
     print("\nRAGAS Evaluation Results:")

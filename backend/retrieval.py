@@ -35,6 +35,8 @@ def format_results(results):
             "score": round(result.score, 4),
             "symptom": result.payload["symptom"],
             "possible_condition": result.payload["possible_condition"],
+            "advice": result.payload["advice"],
+            "when_to_see_doctor": result.payload["when_to_see_doctor"],
             "source": result.payload["source"],
             "url": result.payload["url"]
        })
@@ -52,6 +54,8 @@ if __name__ == "__main__":
         print(f"Score: {r['score']}")
         print(f"Symptom: {r['symptom']}")
         print(f"Condition: {r['possible_condition']}")
+        print(f"Condition: {r['advice']}")
+        print(f"Condition: {r['when_to_see_doctor']}")
         print(f"Source: {r['source']}")
         print(f"URL: {r['url']}")
         print("---")
