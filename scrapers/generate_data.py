@@ -7,7 +7,7 @@ load_dotenv()
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-with open("data/combined_data.json", "r") as f:
+with open("data/cleaned_data.json", "r") as f:
     data = json.load(f)
 
 def generate_pairs(entry):

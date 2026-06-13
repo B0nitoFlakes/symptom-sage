@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import time
+import os
 
 urls = [
     {"source": "NHS", "symptom": "headache", "url": "https://www.nhs.uk/conditions/headaches/"},
@@ -14,14 +15,15 @@ urls = [
     {"source": "NHS", "symptom": "dizziness", "url": "https://www.nhs.uk/conditions/dizziness/"},
 ]
 
-def scrape_page(entry):
-    headers = {
+headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.5",
     "Accept-Encoding": "gzip, deflate, br",
     "Connection": "keep-alive",
 }
+
+def scrape_page(entry):
     response = requests.get(entry["url"], headers=headers)
     soup = BeautifulSoup(response.text, "html.parser")
 
@@ -45,6 +47,7 @@ for entry in urls:
     results.append(data)
     time.sleep(1)
 
+os.makedirs("data", exist_ok=True)
 with open("data/nhs_raw_data.json", "w") as f:
     json.dump(results, f, indent=2)
 
