@@ -54,9 +54,9 @@ if __name__ == "__main__":
     for r in formatted:
         print(f"Score: {r['score']}")
         print(f"Symptom: {r['symptom']}")
-        print(f"Condition: {r['possible_condition']}")
-        print(f"Condition: {r['advice']}")
-        print(f"Condition: {r['when_to_see_doctor']}")
+        print(f"Possible Condition: {r['possible_condition']}")
+        print(f"Advice: {r['advice']}")
+        print(f"When to see doctor: {r['when_to_see_doctor']}")
         print(f"Source: {r['source']}")
         print(f"URL: {r['url']}")
         print("---")
